@@ -1,0 +1,38 @@
+.navbar-custom {
+    background-color: #D4DFC7;
+    color: #637074;
+}
+
+footer {
+    background-color: #D4DFC7;
+}
+
+#forecastResults {
+    display: flex;
+}
+
+.wrap {
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.flex-container {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    -ms-box-orient: horizontal;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.flex-item {
+    /*padding: 5px;*/
+    width: 30%;
+    height: 100%;
+    margin: 10px;
+    text-align: center;
+}
